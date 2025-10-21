@@ -9,3 +9,4 @@ C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DO
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\refint\JADE-DOOR.Domain.dll
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.pdb
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\ref\JADE-DOOR.Domain.dll
+C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.sourcelink.json

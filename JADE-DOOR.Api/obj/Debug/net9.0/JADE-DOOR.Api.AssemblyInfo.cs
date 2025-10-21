@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JADE-DOOR.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f75236278ae523657d3e110b0aec1e9ba2004a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("JADE-DOOR.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JADE-DOOR.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

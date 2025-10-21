@@ -32,3 +32,7 @@ C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Api\obj\Debug\net9.0\JADE-DOOR.
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Api\obj\Debug\net9.0\ref\JADE-DOOR.Api.dll
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Api\bin\Debug\net9.0\JADE-DOOR.Domain.dll
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Api\bin\Debug\net9.0\JADE-DOOR.Domain.pdb
+C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Api\obj\Debug\net9.0\JADE-DOOR.Api.sourcelink.json
+C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
