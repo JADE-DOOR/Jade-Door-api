@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iv2/RNzisnM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lolol\\JADE-DOOR\\Jade-Door-api\\JADE-DOOR.Api\\JADE-DOOR.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lolol\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\lolol\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
