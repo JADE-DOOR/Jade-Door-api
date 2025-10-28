@@ -10,3 +10,15 @@ C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\refint\
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.pdb
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\ref\JADE-DOOR.Domain.dll
 C:\Users\lolol\JADE-DOOR\Jade-Door-api\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.sourcelink.json
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\bin\Debug\net9.0\JADE-DOOR.Domain.deps.json
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\bin\Debug\net9.0\JADE-DOOR.Domain.dll
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\bin\Debug\net9.0\JADE-DOOR.Domain.pdb
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.AssemblyInfoInputs.cache
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.AssemblyInfo.cs
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.sourcelink.json
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.dll
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\refint\JADE-DOOR.Domain.dll
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\JADE-DOOR.Domain.pdb
+C:\Users\lolol\JADE-DOOR\Jade-Door-api-2\JADE-DOOR.Domain\obj\Debug\net9.0\ref\JADE-DOOR.Domain.dll
