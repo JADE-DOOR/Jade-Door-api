@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "JADE-DOOR.Api/1.0.0": {
         "dependencies": {
+          "JADE-DOOR.Data": "1.0.0",
           "JADE-DOOR.Domain": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.8",
           "Swashbuckle.AspNetCore": "9.0.6"
@@ -71,6 +72,17 @@
           "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "assemblyVersion": "9.0.6.0",
             "fileVersion": "9.0.6.1840"
+          }
+        }
+      },
+      "JADE-DOOR.Data/1.0.0": {
+        "dependencies": {
+          "JADE-DOOR.Domain": "1.0.0"
+        },
+        "runtime": {
+          "JADE-DOOR.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -138,6 +150,11 @@
       "sha512": "sha512-WGsw/Yop9b16miq8TQd4THxuEgkP5cH3+DX93BrX9m0OdPcKNtg2nNm77WQSAsA+Se+M0bTiu8bUyrruRSeS5g==",
       "path": "swashbuckle.aspnetcore.swaggerui/9.0.6",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.9.0.6.nupkg.sha512"
+    },
+    "JADE-DOOR.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "JADE-DOOR.Domain/1.0.0": {
       "type": "project",

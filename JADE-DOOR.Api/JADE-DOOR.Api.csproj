@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\JADE-DOOR.Domain\JADE-DOOR.Domain.csproj" />
+    <ProjectReference Include="..\JADE-DOOR.Data\JADE-DOOR.Data.csproj" />
   </ItemGroup>
 
 </Project>
