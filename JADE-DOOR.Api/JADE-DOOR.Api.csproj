@@ -9,11 +9,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.10" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\JADE-DOOR.Domain\JADE-DOOR.Domain.csproj" />
+    <ProjectReference Include="..\JADE-DOOR.Data\JADE-DOOR.Data.csproj" />
   </ItemGroup>
 
 </Project>

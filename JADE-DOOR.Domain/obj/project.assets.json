@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cccbhc/Desktop/ACCTMIS4630/Jade-Door-api-2/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj",
+      "projectUniqueName": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj",
       "projectName": "JADE-DOOR.Domain",
-      "projectPath": "/Users/cccbhc/Desktop/ACCTMIS4630/Jade-Door-api-2/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj",
+      "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj",
       "packagesPath": "/Users/cccbhc/.nuget/packages/",
-      "outputPath": "/Users/cccbhc/Desktop/ACCTMIS4630/Jade-Door-api-2/JADE-DOOR.Domain/obj/",
+      "outputPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/cccbhc/.nuget/NuGet/NuGet.Config"

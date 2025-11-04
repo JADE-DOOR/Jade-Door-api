@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JADE-DOOR.Api", "JADE-DOOR.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JADE-DOOR.Domain", "JADE-DOOR.Domain\JADE-DOOR.Domain.csproj", "{533288E0-B90D-4E5B-93B7-9D735FB09920}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JADE-DOOR.Data", "JADE-DOOR.Data\JADE-DOOR.Data.csproj", "{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{533288E0-B90D-4E5B-93B7-9D735FB09920}.Release|x64.Build.0 = Release|Any CPU
 		{533288E0-B90D-4E5B-93B7-9D735FB09920}.Release|x86.ActiveCfg = Release|Any CPU
 		{533288E0-B90D-4E5B-93B7-9D735FB09920}.Release|x86.Build.0 = Release|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Debug|x64.Build.0 = Debug|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Debug|x86.Build.0 = Debug|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Release|x64.ActiveCfg = Release|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Release|x64.Build.0 = Release|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Release|x86.ActiveCfg = Release|Any CPU
+		{BCE8F7BF-A943-438B-ADD2-39D84DA87C29}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
