@@ -1616,19 +1616,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/cccbhc/.nuget/packages/": {}
+    "C:\\Users\\lolol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Api/JADE-DOOR.Api.csproj",
+      "projectUniqueName": "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Api\\JADE-DOOR.Api.csproj",
       "projectName": "JADE-DOOR.Api",
-      "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Api/JADE-DOOR.Api.csproj",
-      "packagesPath": "/Users/cccbhc/.nuget/packages/",
-      "outputPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Api/obj/",
+      "projectPath": "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Api\\JADE-DOOR.Api.csproj",
+      "packagesPath": "C:\\Users\\lolol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/cccbhc/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\lolol\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -1640,11 +1640,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Data/JADE-DOOR.Data.csproj": {
-              "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Data/JADE-DOOR.Data.csproj"
+            "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Data\\JADE-DOOR.Data.csproj": {
+              "projectPath": "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Data\\JADE-DOOR.Data.csproj"
             },
-            "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj": {
-              "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj"
+            "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj": {
+              "projectPath": "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj"
             }
           }
         }
@@ -1697,7 +1697,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

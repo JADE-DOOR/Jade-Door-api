@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using JADE_DOOR.Data;
 
 namespace JADE_DOOR.Api
 {
@@ -16,16 +18,15 @@ namespace JADE_DOOR.Api
 
         public IConfiguration Configuration { get; }
 
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices (IServiceCollection services)
         {
             services.AddControllers();
             services.AddEndpointsApiExplorer();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "JADE-DOOR.Api", Version = "v1" });
-            });
+            services.AddSwaggerGen();
+            services.AddDbContext<StoreContext> (options =>
+            options.UseSqlite("Data Source=../Registrar.sqlite",
+            b => b.MigrationsAssembly("JADE-DOOR.Api")));
         }
-
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
