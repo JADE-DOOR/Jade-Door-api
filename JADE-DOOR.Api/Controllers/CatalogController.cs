@@ -43,7 +43,7 @@ namespace JADE_DOOR.Api.Controllers
                 Id = id
             };
 
-            item.ns ??= new List<Rating>();
+            item.Ratings ??= new List<Rating>();
             item.Ratings.Add(rating);
 
             return Ok(item);
