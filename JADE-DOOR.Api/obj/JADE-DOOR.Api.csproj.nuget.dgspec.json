@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Api/JADE-DOOR.Api.csproj": {}
+    "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Api/JADE-DOOR.Api.csproj": {}
   },
   "projects": {
-    "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Api/JADE-DOOR.Api.csproj": {
+    "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Api/JADE-DOOR.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Api/JADE-DOOR.Api.csproj",
+        "projectUniqueName": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Api/JADE-DOOR.Api.csproj",
         "projectName": "JADE-DOOR.Api",
-        "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Api/JADE-DOOR.Api.csproj",
+        "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Api/JADE-DOOR.Api.csproj",
         "packagesPath": "/Users/cccbhc/.nuget/packages/",
-        "outputPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Api/obj/",
+        "outputPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cccbhc/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Data/JADE-DOOR.Data.csproj": {
-                "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Data/JADE-DOOR.Data.csproj"
+              "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Data/JADE-DOOR.Data.csproj": {
+                "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Data/JADE-DOOR.Data.csproj"
               },
-              "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj": {
-                "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj"
+              "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj": {
+                "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -83,14 +87,14 @@
         }
       }
     },
-    "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Data/JADE-DOOR.Data.csproj": {
+    "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Data/JADE-DOOR.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Data/JADE-DOOR.Data.csproj",
+        "projectUniqueName": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Data/JADE-DOOR.Data.csproj",
         "projectName": "JADE-DOOR.Data",
-        "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Data/JADE-DOOR.Data.csproj",
+        "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Data/JADE-DOOR.Data.csproj",
         "packagesPath": "/Users/cccbhc/.nuget/packages/",
-        "outputPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Data/obj/",
+        "outputPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cccbhc/.nuget/NuGet/NuGet.Config"
@@ -105,8 +109,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj": {
-                "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj"
+              "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj": {
+                "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj"
               }
             }
           }
@@ -126,6 +130,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -146,14 +156,14 @@
         }
       }
     },
-    "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj": {
+    "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj",
+        "projectUniqueName": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj",
         "projectName": "JADE-DOOR.Domain",
-        "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj",
+        "projectPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/JADE-DOOR.Domain.csproj",
         "packagesPath": "/Users/cccbhc/.nuget/packages/",
-        "outputPath": "/Users/cccbhc/AMIS4630/Jade-Door-api/JADE-DOOR.Domain/obj/",
+        "outputPath": "/Users/cccbhc/AMIS4630/Jade-Door-api-4/JADE-DOOR.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cccbhc/.nuget/NuGet/NuGet.Config"

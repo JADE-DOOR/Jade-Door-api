@@ -4,6 +4,10 @@
     <ProjectReference Include="..\JADE-DOOR.Domain\JADE-DOOR.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.10" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>JADE_DOOR.Data</RootNamespace>
