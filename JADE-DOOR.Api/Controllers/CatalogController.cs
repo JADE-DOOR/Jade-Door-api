@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using JADE_DOOR.Domain.Catalog;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;   
 using JADE_DOOR.Data;
 
@@ -33,33 +34,62 @@ namespace JADE_DOOR.Api.Controllers
             return Ok(item);
         }
         [HttpPost]
-        public IActionResult Post([FromBody] Item item)
+        public ActionResult Post(Item item)
         {
-            if (item.Id == 0) item.Id = 42;
+            _db.Items.Add(item);
+            _db.SaveChanges();
             return Created($"/catalog/{item.Id}", item);
         }
         [HttpPost("{id:int}/ratings")]
         public IActionResult PostRating(int id, [FromBody] Rating rating)
         {
-            var item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m)
+            var item = _db.Items.Find(id);
+            if (item == null)
             {
-                Id = id
-            };
+                return NotFound();
+            }
 
-            item.Ratings ??= new List<Rating>();
-            item.Ratings.Add(rating);
+            // Use domain method to add rating so any domain invariants/validation are applied
+            item.AddRating(rating);
+            _db.SaveChanges();
 
             return Ok(item);
         }
         [HttpPut("{id:int}")]
-        public IActionResult Put(int id, [FromBody] Item item)
+        public ActionResult Put(int id, [FromBody] Item item)
         {
+            // Validate route id matches body id
+            if (id != item.Id)
+            {
+                return BadRequest();
+            }
+
+            // Ensure the item exists
+            var existing = _db.Items.Find(id);
+            if (existing == null)
+            {
+                return NotFound();
+            }
+
+            // Mark the incoming entity as modified and persist
+            _db.Entry(item).State = EntityState.Modified;
+            _db.SaveChanges();
+
             return NoContent();
         }
         [HttpDelete("{id:int}")]
         public IActionResult Delete(int id)
         {
-            return NoContent();
+            var item = _db.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            _db.Items.Remove(item);
+            _db.SaveChanges();
+
+            return Ok(item);
         }
 
 

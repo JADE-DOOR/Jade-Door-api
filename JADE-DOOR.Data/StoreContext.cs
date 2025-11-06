@@ -1,4 +1,5 @@
 ﻿using JADE_DOOR.Domain.Catalog;
+using JADE_DOOR.Domain.Orders;
 using Microsoft.EntityFrameworkCore;
 
 namespace JADE_DOOR.Data
@@ -11,6 +12,7 @@ namespace JADE_DOOR.Data
         }
 
         public DbSet<Item> Items { get; set; }
+    public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
