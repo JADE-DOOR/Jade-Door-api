@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj": {}
+    "c:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj": {
+    "c:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj",
         "projectName": "JADE-DOOR.Domain",
-        "projectPath": "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj",
+        "projectPath": "c:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\JADE-DOOR.Domain.csproj",
         "packagesPath": "C:\\Users\\lolol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\obj\\",
+        "outputPath": "c:\\Users\\lolol\\AMIS4630\\Jade-Door-api-2\\JADE-DOOR.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lolol\\AppData\\Roaming\\NuGet\\NuGet.Config"

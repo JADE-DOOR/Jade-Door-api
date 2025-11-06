@@ -23,9 +23,8 @@ namespace JADE_DOOR.Api
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
-            services.AddDbContext<StoreContext> (options =>
-            options.UseSqlite("Data Source=../Registrar.sqlite",
-            b => b.MigrationsAssembly("JADE-DOOR.Api")));
+            services.AddDbContext<StoreContext>(options =>
+                options.UseSqlite("Data Source=../Registrar.sqlite", b => b.MigrationsAssembly("JADE-DOOR.Data")));
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
