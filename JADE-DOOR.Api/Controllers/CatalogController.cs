@@ -3,6 +3,7 @@ using JADE_DOOR.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;   
 using JADE_DOOR.Data;
+using Microsoft.AspNetCore.Authorization; 
 
 namespace JADE_DOOR.Api.Controllers
 {
@@ -78,6 +79,7 @@ namespace JADE_DOOR.Api.Controllers
             return NoContent();
         }
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult Delete(int id)
         {
             var item = _db.Items.Find(id);

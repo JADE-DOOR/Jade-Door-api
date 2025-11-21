@@ -1,0 +1,18 @@
+### GET token from Auth0
+curl --request POST \
+  --url https://dev-f3waphfobl4eughx.us.auth0.com/oauth/token \
+  --header "content-type: application/json" \
+  --data '{
+    "client_id": "D3iwlpLA5AOQvT6GTnbSzX0xM0xUE5wy",
+    "client_secret": "jq1FpEhuQGxWq2Rkl-msSCuNKqIbGcoqpuciWmcN-M8fH4FkqcfydwRN5Tvx8wD8",
+    "audience": "https://jade-door-api",
+    "grant_type": "client_credentials"
+  }'
+
+### DELETE catalog item with valid token
+curl --request DELETE \
+  --url http://localhost:5072/catalog/3 \
+  --header "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InY5R2pEQ2F6MWpFNms3d1l6dkJLeCJ9.eyJpc3MiOiJodHRwczovL2Rldi1mM3dhcGhmb2JsNGV1Z2h4LnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJEM2l3bHBMQTVBT1F2VDZHVG5iU3pYMHhNMHhVRTV3eUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9qYWRlLWRvb3ItYXBpIiwiaWF0IjoxNzYzNzQxMDY4LCJleHAiOjE3NjM4Mjc0NjgsInNjb3BlIjoiZGVsZXRlOmNhdGFsb2ciLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMiLCJhenAiOiJEM2l3bHBMQTVBT1F2VDZHVG5iU3pYMHhNMHhVRTV3eSJ9.IcAExDUvHBwoGBWUsl0upyf0WXBMpNJ8wM_H0KcC2sEnE0AV56V4LYzLlw1XbP6odJOaWX8TRzx6SCS3zPpAufLSFAiyTWtWEiVZDiaN84zrFJDenp1FkIXH0_0CZaKgCjDjOewng5N6nnpfyrSuoRajt4GbCoyX9bE7pJevt-gbsOlRa64vi-_A3mpNyE9EMkjh3M9j8W6DJzaPxVpnVvSoNwIEO5dO0zEmx33eybOchLp6xaL1pRRbhO6Fy6vPkaGM3BpR4YpXLjiHVVRZvL3QOxmu6mVdFKfZBp92p9rcKdwgMV8HY-wSWH5eYrHkJxN1lZs7cq9iFD0ZhaKHRQ" \
+  --header "accept: application/json"
+
+
