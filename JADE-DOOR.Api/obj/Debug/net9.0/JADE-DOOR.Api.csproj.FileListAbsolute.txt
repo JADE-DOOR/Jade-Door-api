@@ -549,6 +549,7 @@ C:/Users/lolol/AMIS4630/Jade-Door-api-2/JADE-DOOR.Api/bin/Debug/net9.0/runtimes/
 /Users/cccbhc/AMIS4630/Jade-Door-api-10/JADE-DOOR.Api/bin/Debug/net9.0/Azure.Core.dll
 /Users/cccbhc/AMIS4630/Jade-Door-api-10/JADE-DOOR.Api/bin/Debug/net9.0/Azure.Identity.dll
 /Users/cccbhc/AMIS4630/Jade-Door-api-10/JADE-DOOR.Api/bin/Debug/net9.0/Humanizer.dll
+/Users/cccbhc/AMIS4630/Jade-Door-api-10/JADE-DOOR.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/cccbhc/AMIS4630/Jade-Door-api-10/JADE-DOOR.Api/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/cccbhc/AMIS4630/Jade-Door-api-10/JADE-DOOR.Api/bin/Debug/net9.0/Microsoft.AspNetCore.Razor.Language.dll
 /Users/cccbhc/AMIS4630/Jade-Door-api-10/JADE-DOOR.Api/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
